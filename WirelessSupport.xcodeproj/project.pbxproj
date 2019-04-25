@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54354E7B2257B6EC0030ECDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54354E7A2257B6EC0030ECDF /* AppDelegate.swift */; };
+		54354E7D2257B6EC0030ECDF /* ConsumerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54354E7C2257B6EC0030ECDF /* ConsumerViewController.swift */; };
+		54354E7F2257B6EC0030ECDF /* BusinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54354E7E2257B6EC0030ECDF /* BusinessViewController.swift */; };
+		54354E822257B6EC0030ECDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54354E802257B6EC0030ECDF /* Main.storyboard */; };
+		54354E872257B6EE0030ECDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54354E852257B6EE0030ECDF /* LaunchScreen.storyboard */; };
+		54354E922257B6EE0030ECDF /* WirelessSupportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54354E912257B6EE0030ECDF /* WirelessSupportTests.swift */; };
+		54354E9D2257B6EE0030ECDF /* WirelessSupportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54354E9C2257B6EE0030ECDF /* WirelessSupportUITests.swift */; };
+		54354EAF2257B8740030ECDF /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54354EAE2257B8740030ECDF /* TabViewController.swift */; };
+		54354EB12257BA8B0030ECDF /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54354EB02257BA8B0030ECDF /* FeedbackViewController.swift */; };
+		54354EB72257CA6C0030ECDF /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54354EB62257CA6C0030ECDF /* MenuBar.swift */; };
+		54354EBA22584F200030ECDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54354EB922584F200030ECDF /* Assets.xcassets */; };
+		54A88147225D81BB004EC54A /* PromoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A88146225D81BB004EC54A /* PromoCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54354E8E2257B6EE0030ECDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54354E6F2257B6EC0030ECDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54354E762257B6EC0030ECDF;
+			remoteInfo = WirelessSupport;
+		};
+		54354E992257B6EE0030ECDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54354E6F2257B6EC0030ECDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54354E762257B6EC0030ECDF;
+			remoteInfo = WirelessSupport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54354E772257B6EC0030ECDF /* WirelessSupport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WirelessSupport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54354E7A2257B6EC0030ECDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54354E7C2257B6EC0030ECDF /* ConsumerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConsumerViewController.swift; path = ../View/ConsumerViewController.swift; sourceTree = "<group>"; };
+		54354E7E2257B6EC0030ECDF /* BusinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BusinessViewController.swift; path = ../View/BusinessViewController.swift; sourceTree = "<group>"; };
+		54354E812257B6EC0030ECDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54354E862257B6EE0030ECDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54354E882257B6EE0030ECDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54354E8D2257B6EE0030ECDF /* WirelessSupportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WirelessSupportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54354E912257B6EE0030ECDF /* WirelessSupportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WirelessSupportTests.swift; sourceTree = "<group>"; };
+		54354E932257B6EE0030ECDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54354E982257B6EE0030ECDF /* WirelessSupportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WirelessSupportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54354E9C2257B6EE0030ECDF /* WirelessSupportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WirelessSupportUITests.swift; sourceTree = "<group>"; };
+		54354E9E2257B6EE0030ECDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54354EAE2257B8740030ECDF /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabViewController.swift; path = ../View/TabViewController.swift; sourceTree = "<group>"; };
+		54354EB02257BA8B0030ECDF /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedbackViewController.swift; path = ../View/FeedbackViewController.swift; sourceTree = "<group>"; };
+		54354EB62257CA6C0030ECDF /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		54354EB922584F200030ECDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54A88146225D81BB004EC54A /* PromoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54354E742257B6EC0030ECDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54354E8A2257B6EE0030ECDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54354E952257B6EE0030ECDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54354E6E2257B6EC0030ECDF = {
+			isa = PBXGroup;
+			children = (
+				54354E792257B6EC0030ECDF /* WirelessSupport */,
+				54354E902257B6EE0030ECDF /* WirelessSupportTests */,
+				54354E9B2257B6EE0030ECDF /* WirelessSupportUITests */,
+				54354E782257B6EC0030ECDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54354E782257B6EC0030ECDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54354E772257B6EC0030ECDF /* WirelessSupport.app */,
+				54354E8D2257B6EE0030ECDF /* WirelessSupportTests.xctest */,
+				54354E982257B6EE0030ECDF /* WirelessSupportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54354E792257B6EC0030ECDF /* WirelessSupport */ = {
+			isa = PBXGroup;
+			children = (
+				54354EB922584F200030ECDF /* Assets.xcassets */,
+				54852439225D806700989153 /* Controller */,
+				54354EB32257BE2B0030ECDF /* Carriers */,
+				54354EB22257BC440030ECDF /* View */,
+				54354E7A2257B6EC0030ECDF /* AppDelegate.swift */,
+				54354E802257B6EC0030ECDF /* Main.storyboard */,
+				54354E852257B6EE0030ECDF /* LaunchScreen.storyboard */,
+				54354E882257B6EE0030ECDF /* Info.plist */,
+			);
+			path = WirelessSupport;
+			sourceTree = "<group>";
+		};
+		54354E902257B6EE0030ECDF /* WirelessSupportTests */ = {
+			isa = PBXGroup;
+			children = (
+				54354E912257B6EE0030ECDF /* WirelessSupportTests.swift */,
+				54354E932257B6EE0030ECDF /* Info.plist */,
+			);
+			path = WirelessSupportTests;
+			sourceTree = "<group>";
+		};
+		54354E9B2257B6EE0030ECDF /* WirelessSupportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54354E9C2257B6EE0030ECDF /* WirelessSupportUITests.swift */,
+				54354E9E2257B6EE0030ECDF /* Info.plist */,
+			);
+			path = WirelessSupportUITests;
+			sourceTree = "<group>";
+		};
+		54354EB22257BC440030ECDF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				54354EB62257CA6C0030ECDF /* MenuBar.swift */,
+				54A88146225D81BB004EC54A /* PromoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54354EB32257BE2B0030ECDF /* Carriers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Carriers;
+			sourceTree = "<group>";
+		};
+		54852439225D806700989153 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54354EAE2257B8740030ECDF /* TabViewController.swift */,
+				54354E7C2257B6EC0030ECDF /* ConsumerViewController.swift */,
+				54354E7E2257B6EC0030ECDF /* BusinessViewController.swift */,
+				54354EB02257BA8B0030ECDF /* FeedbackViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54354E762257B6EC0030ECDF /* WirelessSupport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54354EA12257B6EE0030ECDF /* Build configuration list for PBXNativeTarget "WirelessSupport" */;
+			buildPhases = (
+				54354E732257B6EC0030ECDF /* Sources */,
+				54354E742257B6EC0030ECDF /* Frameworks */,
+				54354E752257B6EC0030ECDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WirelessSupport;
+			productName = WirelessSupport;
+			productReference = 54354E772257B6EC0030ECDF /* WirelessSupport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54354E8C2257B6EE0030ECDF /* WirelessSupportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54354EA42257B6EE0030ECDF /* Build configuration list for PBXNativeTarget "WirelessSupportTests" */;
+			buildPhases = (
+				54354E892257B6EE0030ECDF /* Sources */,
+				54354E8A2257B6EE0030ECDF /* Frameworks */,
+				54354E8B2257B6EE0030ECDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54354E8F2257B6EE0030ECDF /* PBXTargetDependency */,
+			);
+			name = WirelessSupportTests;
+			productName = WirelessSupportTests;
+			productReference = 54354E8D2257B6EE0030ECDF /* WirelessSupportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54354E972257B6EE0030ECDF /* WirelessSupportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54354EA72257B6EE0030ECDF /* Build configuration list for PBXNativeTarget "WirelessSupportUITests" */;
+			buildPhases = (
+				54354E942257B6EE0030ECDF /* Sources */,
+				54354E952257B6EE0030ECDF /* Frameworks */,
+				54354E962257B6EE0030ECDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54354E9A2257B6EE0030ECDF /* PBXTargetDependency */,
+			);
+			name = WirelessSupportUITests;
+			productName = WirelessSupportUITests;
+			productReference = 54354E982257B6EE0030ECDF /* WirelessSupportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54354E6F2257B6EC0030ECDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Alan Lam";
+				TargetAttributes = {
+					54354E762257B6EC0030ECDF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					54354E8C2257B6EE0030ECDF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 54354E762257B6EC0030ECDF;
+					};
+					54354E972257B6EE0030ECDF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 54354E762257B6EC0030ECDF;
+					};
+				};
+			};
+			buildConfigurationList = 54354E722257B6EC0030ECDF /* Build configuration list for PBXProject "WirelessSupport" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54354E6E2257B6EC0030ECDF;
+			productRefGroup = 54354E782257B6EC0030ECDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54354E762257B6EC0030ECDF /* WirelessSupport */,
+				54354E8C2257B6EE0030ECDF /* WirelessSupportTests */,
+				54354E972257B6EE0030ECDF /* WirelessSupportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54354E752257B6EC0030ECDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54354E872257B6EE0030ECDF /* LaunchScreen.storyboard in Resources */,
+				54354EBA22584F200030ECDF /* Assets.xcassets in Resources */,
+				54354E822257B6EC0030ECDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54354E8B2257B6EE0030ECDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54354E962257B6EE0030ECDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54354E732257B6EC0030ECDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A88147225D81BB004EC54A /* PromoCell.swift in Sources */,
+				54354EAF2257B8740030ECDF /* TabViewController.swift in Sources */,
+				54354E7F2257B6EC0030ECDF /* BusinessViewController.swift in Sources */,
+				54354E7B2257B6EC0030ECDF /* AppDelegate.swift in Sources */,
+				54354EB12257BA8B0030ECDF /* FeedbackViewController.swift in Sources */,
+				54354EB72257CA6C0030ECDF /* MenuBar.swift in Sources */,
+				54354E7D2257B6EC0030ECDF /* ConsumerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54354E892257B6EE0030ECDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54354E922257B6EE0030ECDF /* WirelessSupportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54354E942257B6EE0030ECDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54354E9D2257B6EE0030ECDF /* WirelessSupportUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54354E8F2257B6EE0030ECDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54354E762257B6EC0030ECDF /* WirelessSupport */;
+			targetProxy = 54354E8E2257B6EE0030ECDF /* PBXContainerItemProxy */;
+		};
+		54354E9A2257B6EE0030ECDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54354E762257B6EC0030ECDF /* WirelessSupport */;
+			targetProxy = 54354E992257B6EE0030ECDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54354E802257B6EC0030ECDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54354E812257B6EC0030ECDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54354E852257B6EE0030ECDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54354E862257B6EE0030ECDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54354E9F2257B6EE0030ECDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54354EA02257B6EE0030ECDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54354EA22257B6EE0030ECDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S3558NXZY;
+				INFOPLIST_FILE = WirelessSupport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testing.WirelessSupport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54354EA32257B6EE0030ECDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S3558NXZY;
+				INFOPLIST_FILE = WirelessSupport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testing.WirelessSupport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54354EA52257B6EE0030ECDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WirelessSupportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testing.WirelessSupportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WirelessSupport.app/WirelessSupport";
+			};
+			name = Debug;
+		};
+		54354EA62257B6EE0030ECDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WirelessSupportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testing.WirelessSupportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WirelessSupport.app/WirelessSupport";
+			};
+			name = Release;
+		};
+		54354EA82257B6EE0030ECDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WirelessSupportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testing.WirelessSupportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WirelessSupport;
+			};
+			name = Debug;
+		};
+		54354EA92257B6EE0030ECDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WirelessSupportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testing.WirelessSupportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WirelessSupport;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54354E722257B6EC0030ECDF /* Build configuration list for PBXProject "WirelessSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54354E9F2257B6EE0030ECDF /* Debug */,
+				54354EA02257B6EE0030ECDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54354EA12257B6EE0030ECDF /* Build configuration list for PBXNativeTarget "WirelessSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54354EA22257B6EE0030ECDF /* Debug */,
+				54354EA32257B6EE0030ECDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54354EA42257B6EE0030ECDF /* Build configuration list for PBXNativeTarget "WirelessSupportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54354EA52257B6EE0030ECDF /* Debug */,
+				54354EA62257B6EE0030ECDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54354EA72257B6EE0030ECDF /* Build configuration list for PBXNativeTarget "WirelessSupportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54354EA82257B6EE0030ECDF /* Debug */,
+				54354EA92257B6EE0030ECDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54354E6F2257B6EC0030ECDF /* Project object */;
+}
